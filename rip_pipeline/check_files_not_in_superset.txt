@@ -1,0 +1,2 @@
+# the following is for the drive i use in my server + the drive in my desktop
+comm -13 <(ls -1 /media/path/to/subset/dir | sort) <(ls -1 /media/path/to/superset/dir | sort)
